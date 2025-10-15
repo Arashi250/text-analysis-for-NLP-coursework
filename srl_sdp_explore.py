@@ -14,7 +14,7 @@ corpus_paths = [
     r"resourse\\Chinese novel.txt",  # 小说语料
     r"resourse\\Chinese poem.txt"    # 诗歌语料
 ]
-output_dir = r"syntax_results"
+output_dir = r"srl_sdp_output"
 os.makedirs(output_dir, exist_ok=True)
 
 
@@ -319,3 +319,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
