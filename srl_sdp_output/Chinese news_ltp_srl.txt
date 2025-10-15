@@ -1,0 +1,366 @@
+=== Chinese SRL/SDP analysis by LTP - Chinese news.txt ===
+
+--- Sent 1 ---
+近日，由全国载人航天标准化技术委员会组织提出的国际标准项目ISO/NP14620-5《航天系统一安全性要求一第5部分：载人航天器》，在国际标准化组织（ISO）正式注册立项。这是我国载人航天领域首个成功立项的国际标准，也是该领域在国际规则制定中的首次突破，为促进载人航天飞行安全提供了“中国方案”，将进一步提升我国载人航天国际话语权和影响力。
+
+Tokens & POS & Dependency (table):
+idx | token         | pos | head_idx | head_token | rel
+----+---------------+-----+----------+------------+----
+1   | 近日          | nt  | 0        | ROOT       | _  
+2   | ，            | wp  | 0        | ROOT       | _  
+3   | 由            | p   | 0        | ROOT       | _  
+4   | 全国          | n   | 0        | ROOT       | _  
+5   | 载人          | b   | 0        | ROOT       | _  
+6   | 航天          | n   | 0        | ROOT       | _  
+7   | 标准化        | v   | 0        | ROOT       | _  
+8   | 技术          | n   | 0        | ROOT       | _  
+9   | 委员会        | n   | 0        | ROOT       | _  
+10  | 组织          | v   | 0        | ROOT       | _  
+11  | 提出          | v   | 0        | ROOT       | _  
+12  | 的            | u   | 0        | ROOT       | _  
+13  | 国际          | n   | 0        | ROOT       | _  
+14  | 标准          | n   | 0        | ROOT       | _  
+15  | 项目          | n   | 0        | ROOT       | _  
+16  | ISO/NP14620-5 | ws  | 0        | ROOT       | _  
+17  | 《            | wp  | 0        | ROOT       | _  
+18  | 航天          | n   | 0        | ROOT       | _  
+19  | 系统          | n   | 0        | ROOT       | _  
+20  | 一            | m   | 0        | ROOT       | _  
+21  | 安全性        | n   | 0        | ROOT       | _  
+22  | 要求          | n   | 0        | ROOT       | _  
+23  | 一            | m   | 0        | ROOT       | _  
+24  | 第5           | m   | 0        | ROOT       | _  
+25  | 部分          | n   | 0        | ROOT       | _  
+26  | ：            | wp  | 0        | ROOT       | _  
+27  | 载人          | b   | 0        | ROOT       | _  
+28  | 航天器        | n   | 0        | ROOT       | _  
+29  | 》            | wp  | 0        | ROOT       | _  
+30  | ，            | wp  | 0        | ROOT       | _  
+31  | 在            | p   | 0        | ROOT       | _  
+32  | 国际          | n   | 0        | ROOT       | _  
+33  | 标准化        | v   | 0        | ROOT       | _  
+34  | 组织          | n   | 0        | ROOT       | _  
+35  | （            | wp  | 0        | ROOT       | _  
+36  | ISO           | ws  | 0        | ROOT       | _  
+37  | ）            | wp  | 0        | ROOT       | _  
+38  | 正式          | a   | 0        | ROOT       | _  
+39  | 注册          | v   | 0        | ROOT       | _  
+40  | 立项          | v   | 0        | ROOT       | _  
+41  | 。            | wp  | 0        | ROOT       | _  
+42  | 这            | r   | 0        | ROOT       | _  
+43  | 是            | v   | 0        | ROOT       | _  
+44  | 我国          | n   | 0        | ROOT       | _  
+45  | 载人          | b   | 0        | ROOT       | _  
+46  | 航天          | n   | 0        | ROOT       | _  
+47  | 领域          | n   | 0        | ROOT       | _  
+48  | 首            | m   | 0        | ROOT       | _  
+49  | 个            | q   | 0        | ROOT       | _  
+50  | 成功          | a   | 0        | ROOT       | _  
+51  | 立项          | v   | 0        | ROOT       | _  
+52  | 的            | u   | 0        | ROOT       | _  
+53  | 国际          | n   | 0        | ROOT       | _  
+54  | 标准          | n   | 0        | ROOT       | _  
+55  | ，            | wp  | 0        | ROOT       | _  
+56  | 也            | d   | 0        | ROOT       | _  
+57  | 是            | v   | 0        | ROOT       | _  
+58  | 该            | r   | 0        | ROOT       | _  
+59  | 领域          | n   | 0        | ROOT       | _  
+60  | 在            | p   | 0        | ROOT       | _  
+61  | 国际          | n   | 0        | ROOT       | _  
+62  | 规则          | n   | 0        | ROOT       | _  
+63  | 制定          | v   | 0        | ROOT       | _  
+64  | 中            | nd  | 0        | ROOT       | _  
+65  | 的            | u   | 0        | ROOT       | _  
+66  | 首            | m   | 0        | ROOT       | _  
+67  | 次            | q   | 0        | ROOT       | _  
+68  | 突破          | v   | 0        | ROOT       | _  
+69  | ，            | wp  | 0        | ROOT       | _  
+70  | 为            | p   | 0        | ROOT       | _  
+71  | 促进          | v   | 0        | ROOT       | _  
+72  | 载人          | b   | 0        | ROOT       | _  
+73  | 航天          | n   | 0        | ROOT       | _  
+74  | 飞行          | v   | 0        | ROOT       | _  
+75  | 安全          | a   | 0        | ROOT       | _  
+76  | 提供          | v   | 0        | ROOT       | _  
+77  | 了            | u   | 0        | ROOT       | _  
+78  | “             | wp  | 0        | ROOT       | _  
+79  | 中国          | ns  | 0        | ROOT       | _  
+80  | 方案          | n   | 0        | ROOT       | _  
+81  | ”             | wp  | 0        | ROOT       | _  
+82  | ，            | wp  | 0        | ROOT       | _  
+83  | 将            | d   | 0        | ROOT       | _  
+84  | 进一步        | d   | 0        | ROOT       | _  
+85  | 提升          | v   | 0        | ROOT       | _  
+86  | 我国          | n   | 0        | ROOT       | _  
+87  | 载人          | b   | 0        | ROOT       | _  
+88  | 航天          | n   | 0        | ROOT       | _  
+89  | 国际          | n   | 0        | ROOT       | _  
+90  | 话语权        | n   | 0        | ROOT       | _  
+91  | 和            | c   | 0        | ROOT       | _  
+92  | 影响力        | n   | 0        | ROOT       | _  
+93  | 。            | wp  | 0        | ROOT       | _  
+
+SRL (predicate -> args):
+Predicate `组织` -> ('A0', '由全国载人航天标准化技术委员会', 2, 8)
+Predicate `提出` -> ('A0', '由全国载人航天标准化技术委员会', 2, 8)
+Predicate `是` -> ('A0', '这', 41, 41), ('A1', '我国载人航天领域首个成功立项的国际标准', 43, 53)
+Predicate `立项` -> ('ARGM-ADV', '成功', 49, 49)
+Predicate `是` -> ('A0', '这', 41, 41), ('ARGM-DIS', '也', 55, 55), ('A1', '该领域在国际规则制定中的首次突破', 57, 67)
+Predicate `促进` -> ('A1', '载人航天飞行安全', 71, 74)
+Predicate `提供` -> ('A1', '“中国方案”', 77, 80)
+Predicate `提升` -> ('ARGM-ADV', '将', 82, 82), ('ARGM-ADV', '进一步', 83, 83), ('A1', '我国载人航天国际话语权和影响力', 85, 91)
+
+SDP (semantic dependency edges):
+{'head': [10, 1, 9, 6, 6, 7, 9, 9, 10, 22, 22, 11, 14, 15, 22, 22, 22, 19, 22, 21, 22, 39, 25, 25, 22, 25, 28, 22, 28, 22, 34, 34, 34, 39, 36, 39, 36, 39, 0, 39, 39, 43, 39, 47, 46, 47, 54, 49, 54, 51, 54, 51, 54, 43, 43, 57, 43, 59, 68, 63, 62, 63, 68, 63, 63, 67, 68, 57, 57, 71, 76, 73, 74, 75, 71, 57, 76, 80, 80, 76, 80, 76, 85, 85, 76, 90, 88, 90, 90, 92, 92, 85, 85], 'label': ['TIME', 'mPUNC', 'mRELA', 'FEAT', 'FEAT', 'PAT', 'FEAT', 'FEAT', 'AGT', 'rCONT', 'rCONT', 'mDEPD', 'FEAT', 'FEAT', 'DATV', 'FEAT', 'mPUNC', 'FEAT', 'SCO', 'MEAS', 'FEAT', 'EXP', 'MEAS', 'MEAS', 'MEAS', 'mPUNC', 'FEAT', 'FEAT', 'mPUNC', 'mPUNC', 'mRELA', 'FEAT', 'FEAT', 'LOC', 'mPUNC', 'MANN', 'mPUNC', 'MANN', 'Root', 'eCOO', 'mPUNC', 'EXP', 'eSUCC', 'FEAT', 'FEAT', 'FEAT', 'LOC', 'MEAS', 'MEAS', 'MANN', 'FEAT', 'mDEPD', 'FEAT', 'LINK', 'mPUNC', 'mRELA', 'eSUCC', 'SCO', 'EXP', 'mRELA', 'FEAT', 'FEAT', 'SCO', 'mDEPD', 'mDEPD', 'MEAS', 'MEAS', 'LINK', 'mPUNC', 'mRELA', 'dDATV', 'FEAT', 'PAT', 'EXP', 'CONT', 'eSUCC', 'mDEPD', 'mPUNC', 'FEAT', 'CONT', 'mPUNC', 'mPUNC', 'mDEPD', 'mDEPD', 'eCOO', 'FEAT', 'FEAT', 'FEAT', 'FEAT', 'FEAT', 'mRELA', 'PAT', 'mPUNC']}
+
+--- Sent 2 ---
+该标准在研究和借鉴国外航天领域安全性先进技术和方法的基础上，总结我国载人航天工程30余年安全性工作经验，提出适用于各国载人航天器及相关产品开展安全性工作的统一技术指导和范式，向全世界公布参与载人航天工作的安全性准入条件，是实施载人航天活动、研制载人航天系统及载荷产品的安全性基线和门槛，对进一步促进我国空间站国际合作具有重要意义。
+
+Tokens & POS & Dependency (table):
+idx | token  | pos | head_idx | head_token | rel
+----+--------+-----+----------+------------+----
+1   | 该     | r   | 0        | ROOT       | _  
+2   | 标准   | n   | 0        | ROOT       | _  
+3   | 在     | p   | 0        | ROOT       | _  
+4   | 研究   | v   | 0        | ROOT       | _  
+5   | 和     | c   | 0        | ROOT       | _  
+6   | 借鉴   | v   | 0        | ROOT       | _  
+7   | 国外   | nl  | 0        | ROOT       | _  
+8   | 航天   | n   | 0        | ROOT       | _  
+9   | 领域   | n   | 0        | ROOT       | _  
+10  | 安全性 | n   | 0        | ROOT       | _  
+11  | 先进   | a   | 0        | ROOT       | _  
+12  | 技术   | n   | 0        | ROOT       | _  
+13  | 和     | c   | 0        | ROOT       | _  
+14  | 方法   | n   | 0        | ROOT       | _  
+15  | 的     | u   | 0        | ROOT       | _  
+16  | 基础   | n   | 0        | ROOT       | _  
+17  | 上     | nd  | 0        | ROOT       | _  
+18  | ，     | wp  | 0        | ROOT       | _  
+19  | 总结   | v   | 0        | ROOT       | _  
+20  | 我国   | n   | 0        | ROOT       | _  
+21  | 载人   | b   | 0        | ROOT       | _  
+22  | 航天   | n   | 0        | ROOT       | _  
+23  | 工程   | n   | 0        | ROOT       | _  
+24  | 30     | m   | 0        | ROOT       | _  
+25  | 余     | m   | 0        | ROOT       | _  
+26  | 年     | q   | 0        | ROOT       | _  
+27  | 安全性 | n   | 0        | ROOT       | _  
+28  | 工作   | v   | 0        | ROOT       | _  
+29  | 经验   | n   | 0        | ROOT       | _  
+30  | ，     | wp  | 0        | ROOT       | _  
+31  | 提出   | v   | 0        | ROOT       | _  
+32  | 适用   | v   | 0        | ROOT       | _  
+33  | 于     | p   | 0        | ROOT       | _  
+34  | 各国   | r   | 0        | ROOT       | _  
+35  | 载人   | b   | 0        | ROOT       | _  
+36  | 航天器 | n   | 0        | ROOT       | _  
+37  | 及     | c   | 0        | ROOT       | _  
+38  | 相关   | v   | 0        | ROOT       | _  
+39  | 产品   | n   | 0        | ROOT       | _  
+40  | 开展   | v   | 0        | ROOT       | _  
+41  | 安全性 | n   | 0        | ROOT       | _  
+42  | 工作   | v   | 0        | ROOT       | _  
+43  | 的     | u   | 0        | ROOT       | _  
+44  | 统一   | a   | 0        | ROOT       | _  
+45  | 技术   | n   | 0        | ROOT       | _  
+46  | 指导   | v   | 0        | ROOT       | _  
+47  | 和     | c   | 0        | ROOT       | _  
+48  | 范式   | n   | 0        | ROOT       | _  
+49  | ，     | wp  | 0        | ROOT       | _  
+50  | 向     | p   | 0        | ROOT       | _  
+51  | 全世界 | n   | 0        | ROOT       | _  
+52  | 公布   | v   | 0        | ROOT       | _  
+53  | 参与   | v   | 0        | ROOT       | _  
+54  | 载人   | b   | 0        | ROOT       | _  
+55  | 航天   | n   | 0        | ROOT       | _  
+56  | 工作   | v   | 0        | ROOT       | _  
+57  | 的     | u   | 0        | ROOT       | _  
+58  | 安全性 | n   | 0        | ROOT       | _  
+59  | 准入   | v   | 0        | ROOT       | _  
+60  | 条件   | n   | 0        | ROOT       | _  
+61  | ，     | wp  | 0        | ROOT       | _  
+62  | 是     | v   | 0        | ROOT       | _  
+63  | 实施   | v   | 0        | ROOT       | _  
+64  | 载人   | b   | 0        | ROOT       | _  
+65  | 航天   | n   | 0        | ROOT       | _  
+66  | 活动   | v   | 0        | ROOT       | _  
+67  | 、     | wp  | 0        | ROOT       | _  
+68  | 研制   | v   | 0        | ROOT       | _  
+69  | 载人   | b   | 0        | ROOT       | _  
+70  | 航天   | n   | 0        | ROOT       | _  
+71  | 系统   | n   | 0        | ROOT       | _  
+72  | 及     | c   | 0        | ROOT       | _  
+73  | 载荷   | n   | 0        | ROOT       | _  
+74  | 产品   | n   | 0        | ROOT       | _  
+75  | 的     | u   | 0        | ROOT       | _  
+76  | 安全性 | n   | 0        | ROOT       | _  
+77  | 基线   | n   | 0        | ROOT       | _  
+78  | 和     | c   | 0        | ROOT       | _  
+79  | 门槛   | n   | 0        | ROOT       | _  
+80  | ，     | wp  | 0        | ROOT       | _  
+81  | 对     | p   | 0        | ROOT       | _  
+82  | 进一步 | d   | 0        | ROOT       | _  
+83  | 促进   | v   | 0        | ROOT       | _  
+84  | 我国   | n   | 0        | ROOT       | _  
+85  | 空间站 | n   | 0        | ROOT       | _  
+86  | 国际   | n   | 0        | ROOT       | _  
+87  | 合作   | v   | 0        | ROOT       | _  
+88  | 具有   | v   | 0        | ROOT       | _  
+89  | 重要   | a   | 0        | ROOT       | _  
+90  | 意义   | n   | 0        | ROOT       | _  
+91  | 。     | wp  | 0        | ROOT       | _  
+
+SRL (predicate -> args):
+Predicate `借鉴` -> ('A1', '国外航天领域安全性先进技术和方法', 6, 13)
+Predicate `总结` -> ('A0', '该标准', 0, 1), ('ARGM-LOC', '在研究和借鉴国外航天领域安全性先进技术和方法的基础上', 2, 16), ('A1', '我国载人航天工程30余年安全性工作经验', 19, 28)
+Predicate `提出` -> ('A0', '该标准', 0, 1), ('A1', '适用于各国载人航天器及相关产品开展安全性工作的统一技术指导和范式', 31, 47)
+Predicate `开展` -> ('A1', '安全性工作', 40, 41)
+Predicate `公布` -> ('A0', '该标准', 0, 1), ('A1', '参与载人航天工作的安全性准入条件', 52, 59)
+Predicate `参与` -> ('A1', '载人航天工作', 53, 55)
+Predicate `是` -> ('A0', '该标准', 0, 1), ('A1', '实施载人航天活动、研制载人航天系统及载荷产品的安全性基线和门槛', 62, 78)
+Predicate `实施` -> ('A1', '载人航天活动', 63, 65)
+Predicate `研制` -> ('A1', '载人航天系统及载荷产品', 68, 73)
+Predicate `促进` -> ('ARGM-ADV', '进一步', 81, 81), ('A1', '我国空间站国际合作', 83, 86)
+Predicate `具有` -> ('A0', '该标准', 0, 1), ('A1', '重要意义', 88, 89)
+
+SDP (semantic dependency edges):
+{'head': [2, 19, 16, 16, 6, 4, 9, 9, 12, 12, 12, 6, 14, 12, 6, 19, 16, 16, 0, 23, 23, 23, 29, 26, 24, 29, 29, 29, 19, 19, 19, 46, 36, 36, 36, 39, 39, 39, 40, 32, 42, 40, 40, 46, 46, 31, 48, 46, 31, 51, 52, 31, 60, 56, 56, 53, 53, 60, 60, 52, 31, 31, 62, 66, 66, 63, 66, 63, 71, 71, 68, 74, 74, 77, 74, 77, 63, 79, 77, 62, 83, 83, 88, 85, 87, 87, 83, 62, 90, 88, 88], 'label': ['SCO', 'EXP', 'mRELA', 'dFEAT', 'mRELA', 'eCOO', 'LOC', 'FEAT', 'FEAT', 'FEAT', 'FEAT', 'CONT', 'mRELA', 'eCOO', 'mDEPD', 'LOC', 'mDEPD', 'mPUNC', 'Root', 'FEAT', 'FEAT', 'FEAT', 'FEAT', 'MEAS', 'mDEPD', 'MEAS', 'FEAT', 'FEAT', 'CONT', 'mPUNC', 'eSUCC', 'rEXP', 'mRELA', 'SCO', 'FEAT', 'eCOO', 'mRELA', 'FEAT', 'AGT', 'dCONT', 'FEAT', 'CONT', 'mDEPD', 'FEAT', 'CONT', 'CONT', 'mRELA', 'eCOO', 'mPUNC', 'mRELA', 'DATV', 'eSUCC', 'dFEAT', 'FEAT', 'FEAT', 'CONT', 'mDEPD', 'FEAT', 'FEAT', 'CONT', 'mPUNC', 'eSUCC', 'dLINK', 'FEAT', 'FEAT', 'CONT', 'mPUNC', 'eCOO', 'FEAT', 'FEAT', 'CONT', 'mRELA', 'FEAT', 'eCOO', 'mDEPD', 'FEAT', 'CONT', 'mRELA', 'eCOO', 'mPUNC', 'mRELA', 'mDEPD', 'dDATV', 'FEAT', 'FEAT', 'FEAT', 'PAT', 'eSUCC', 'FEAT', 'LINK', 'mPUNC']}
+
+--- Sent 3 ---
+该标准内容包括载人航天器安全性管理要求、安全性技术要求、安全性设计与验证要求、在轨飞行任务安全性要求等，从保证人的生命安全角度，从顶层规范了载人航天任务研制、发射、在轨运行、返回、着陆等阶段的安全性工作，适用于载人飞船、货运飞船、空间站以及相关载荷产品等，对于月球探测工程相关产品安全性设计也具有指导意义。
+
+Tokens & POS & Dependency (table):
+idx | token  | pos | head_idx | head_token | rel
+----+--------+-----+----------+------------+----
+1   | 该     | r   | 0        | ROOT       | _  
+2   | 标准   | n   | 0        | ROOT       | _  
+3   | 内容   | n   | 0        | ROOT       | _  
+4   | 包括   | v   | 0        | ROOT       | _  
+5   | 载人   | b   | 0        | ROOT       | _  
+6   | 航天器 | n   | 0        | ROOT       | _  
+7   | 安全性 | n   | 0        | ROOT       | _  
+8   | 管理   | v   | 0        | ROOT       | _  
+9   | 要求   | n   | 0        | ROOT       | _  
+10  | 、     | wp  | 0        | ROOT       | _  
+11  | 安全性 | n   | 0        | ROOT       | _  
+12  | 技术   | n   | 0        | ROOT       | _  
+13  | 要求   | n   | 0        | ROOT       | _  
+14  | 、     | wp  | 0        | ROOT       | _  
+15  | 安全性 | n   | 0        | ROOT       | _  
+16  | 设计   | v   | 0        | ROOT       | _  
+17  | 与     | c   | 0        | ROOT       | _  
+18  | 验证   | v   | 0        | ROOT       | _  
+19  | 要求   | n   | 0        | ROOT       | _  
+20  | 、     | wp  | 0        | ROOT       | _  
+21  | 在     | v   | 0        | ROOT       | _  
+22  | 轨     | n   | 0        | ROOT       | _  
+23  | 飞行   | v   | 0        | ROOT       | _  
+24  | 任务   | n   | 0        | ROOT       | _  
+25  | 安全性 | n   | 0        | ROOT       | _  
+26  | 要求   | n   | 0        | ROOT       | _  
+27  | 等     | u   | 0        | ROOT       | _  
+28  | ，     | wp  | 0        | ROOT       | _  
+29  | 从     | p   | 0        | ROOT       | _  
+30  | 保证   | n   | 0        | ROOT       | _  
+31  | 人     | n   | 0        | ROOT       | _  
+32  | 的     | u   | 0        | ROOT       | _  
+33  | 生命   | n   | 0        | ROOT       | _  
+34  | 安全   | a   | 0        | ROOT       | _  
+35  | 角度   | n   | 0        | ROOT       | _  
+36  | ，     | wp  | 0        | ROOT       | _  
+37  | 从     | p   | 0        | ROOT       | _  
+38  | 顶层   | nd  | 0        | ROOT       | _  
+39  | 规范   | v   | 0        | ROOT       | _  
+40  | 了     | u   | 0        | ROOT       | _  
+41  | 载人   | b   | 0        | ROOT       | _  
+42  | 航天   | n   | 0        | ROOT       | _  
+43  | 任务   | n   | 0        | ROOT       | _  
+44  | 研制   | v   | 0        | ROOT       | _  
+45  | 、     | wp  | 0        | ROOT       | _  
+46  | 发射   | v   | 0        | ROOT       | _  
+47  | 、     | wp  | 0        | ROOT       | _  
+48  | 在轨   | v   | 0        | ROOT       | _  
+49  | 运行   | v   | 0        | ROOT       | _  
+50  | 、     | wp  | 0        | ROOT       | _  
+51  | 返回   | v   | 0        | ROOT       | _  
+52  | 、     | wp  | 0        | ROOT       | _  
+53  | 着陆   | v   | 0        | ROOT       | _  
+54  | 等     | u   | 0        | ROOT       | _  
+55  | 阶段   | n   | 0        | ROOT       | _  
+56  | 的     | u   | 0        | ROOT       | _  
+57  | 安全性 | n   | 0        | ROOT       | _  
+58  | 工作   | v   | 0        | ROOT       | _  
+59  | ，     | wp  | 0        | ROOT       | _  
+60  | 适用   | v   | 0        | ROOT       | _  
+61  | 于     | p   | 0        | ROOT       | _  
+62  | 载人   | b   | 0        | ROOT       | _  
+63  | 飞船   | n   | 0        | ROOT       | _  
+64  | 、     | wp  | 0        | ROOT       | _  
+65  | 货运   | n   | 0        | ROOT       | _  
+66  | 飞船   | n   | 0        | ROOT       | _  
+67  | 、     | wp  | 0        | ROOT       | _  
+68  | 空间站 | n   | 0        | ROOT       | _  
+69  | 以及   | c   | 0        | ROOT       | _  
+70  | 相关   | v   | 0        | ROOT       | _  
+71  | 载荷   | n   | 0        | ROOT       | _  
+72  | 产品   | n   | 0        | ROOT       | _  
+73  | 等     | u   | 0        | ROOT       | _  
+74  | ，     | wp  | 0        | ROOT       | _  
+75  | 对于   | p   | 0        | ROOT       | _  
+76  | 月球   | n   | 0        | ROOT       | _  
+77  | 探测   | v   | 0        | ROOT       | _  
+78  | 工程   | n   | 0        | ROOT       | _  
+79  | 相关   | v   | 0        | ROOT       | _  
+80  | 产品   | n   | 0        | ROOT       | _  
+81  | 安全性 | n   | 0        | ROOT       | _  
+82  | 设计   | v   | 0        | ROOT       | _  
+83  | 也     | d   | 0        | ROOT       | _  
+84  | 具有   | v   | 0        | ROOT       | _  
+85  | 指导   | v   | 0        | ROOT       | _  
+86  | 意义   | n   | 0        | ROOT       | _  
+87  | 。     | wp  | 0        | ROOT       | _  
+
+SRL (predicate -> args):
+Predicate `包括` -> ('A0', '该标准内容', 0, 2), ('A1', '载人航天器安全性管理要求、安全性技术要求、安全性设计与验证要求、在轨飞行任务安全性要求等', 4, 26)
+Predicate `规范` -> ('A1', '载人航天任务研制、发射、在轨运行、返回、着陆等阶段的安全性工作', 40, 57)
+Predicate `适用` -> ('A0', '该标准内容', 0, 2), ('A1', '于载人飞船、货运飞船、空间站以及相关载荷产品等', 60, 72)
+Predicate `具有` -> ('ARGM-ADV', '也', 82, 82), ('A1', '指导意义', 84, 85)
+
+SDP (semantic dependency edges):
+{'head': [2, 3, 4, 0, 6, 7, 9, 9, 4, 9, 13, 13, 9, 13, 16, 19, 19, 19, 13, 19, 22, 23, 24, 25, 26, 19, 26, 4, 35, 35, 34, 31, 34, 35, 39, 35, 35, 39, 4, 39, 43, 43, 44, 46, 44, 49, 46, 49, 51, 49, 53, 51, 55, 53, 58, 55, 58, 39, 39, 39, 60, 63, 60, 63, 66, 63, 66, 66, 72, 72, 72, 66, 72, 60, 82, 78, 78, 82, 80, 82, 82, 84, 84, 60, 86, 84, 84], 'label': ['SCO', 'FEAT', 'EXP', 'Root', 'FEAT', 'FEAT', 'FEAT', 'FEAT', 'LINK', 'mPUNC', 'FEAT', 'FEAT', 'eCOO', 'mPUNC', 'FEAT', 'eCOO', 'mRELA', 'FEAT', 'eCOO', 'mPUNC', 'mRELA', 'LOC', 'FEAT', 'FEAT', 'FEAT', 'eCOO', 'mDEPD', 'mPUNC', 'mRELA', 'FEAT', 'EXP', 'mDEPD', 'EXP', 'FEAT', 'MANN', 'mPUNC', 'mRELA', 'LOC', 'eSUCC', 'mDEPD', 'FEAT', 'FEAT', 'PAT', 'eCOO', 'mPUNC', 'eCOO', 'mPUNC', 'eCOO', 'eCOO', 'mPUNC', 'eCOO', 'mPUNC', 'FEAT', 'mDEPD', 'LOC', 'mDEPD', 'FEAT', 'PAT', 'mPUNC', 'eSUCC', 'mRELA', 'FEAT', 'CONT', 'mPUNC', 'FEAT', 'eCOO', 'mPUNC', 'eCOO', 'mRELA', 'FEAT', 'FEAT', 'eCOO', 'mDEPD', 'mPUNC', 'mRELA', 'FEAT', 'FEAT', 'CONT', 'FEAT', 'PAT', 'FEAT', 'DATV', 'mDEPD', 'eSUCC', 'FEAT', 'LINK', 'mPUNC']}
+
+--- Sent 4 ---
+后续，项目组将按计划开展各阶段编制工作，确保标准顺利发布、实施。
+
+Tokens & POS & Dependency (table):
+idx | token  | pos | head_idx | head_token | rel
+----+--------+-----+----------+------------+----
+1   | 后续   | v   | 0        | ROOT       | _  
+2   | ，     | wp  | 0        | ROOT       | _  
+3   | 项目组 | n   | 0        | ROOT       | _  
+4   | 将     | d   | 0        | ROOT       | _  
+5   | 按     | p   | 0        | ROOT       | _  
+6   | 计划   | n   | 0        | ROOT       | _  
+7   | 开展   | v   | 0        | ROOT       | _  
+8   | 各     | r   | 0        | ROOT       | _  
+9   | 阶段   | n   | 0        | ROOT       | _  
+10  | 编制   | n   | 0        | ROOT       | _  
+11  | 工作   | v   | 0        | ROOT       | _  
+12  | ，     | wp  | 0        | ROOT       | _  
+13  | 确保   | v   | 0        | ROOT       | _  
+14  | 标准   | n   | 0        | ROOT       | _  
+15  | 顺利   | a   | 0        | ROOT       | _  
+16  | 发布   | v   | 0        | ROOT       | _  
+17  | 、     | wp  | 0        | ROOT       | _  
+18  | 实施   | v   | 0        | ROOT       | _  
+19  | 。     | wp  | 0        | ROOT       | _  
+
+SRL (predicate -> args):
+Predicate `开展` -> ('ARGM-ADV', '后续', 0, 0), ('A0', '项目组', 2, 2), ('ARGM-ADV', '将', 3, 3), ('ARGM-MNR', '按计划', 4, 5), ('A1', '各阶段编制工作', 7, 10)
+Predicate `确保` -> ('A0', '项目组', 2, 2), ('A1', '标准顺利发布、实施', 13, 17)
+Predicate `发布` -> ('A1', '标准', 13, 13), ('ARGM-ADV', '顺利', 14, 14)
+
+SDP (semantic dependency edges):
+{'head': [7, 1, 7, 7, 6, 7, 0, 9, 11, 11, 7, 7, 7, 16, 16, 13, 16, 16, 13], 'label': ['TIME', 'mPUNC', 'AGT', 'mDEPD', 'mRELA', 'MANN', 'Root', 'SCO', 'FEAT', 'FEAT', 'CONT', 'mPUNC', 'eSUCC', 'PAT', 'MANN', 'dCONT', 'mPUNC', 'eCOO', 'mPUNC']}
+
